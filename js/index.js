@@ -19,5 +19,3 @@ window.addEventListener('click',e=>{
 
   }
 })
-
-alert();
