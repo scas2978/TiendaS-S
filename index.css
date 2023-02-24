@@ -127,12 +127,12 @@ header {
     flex-wrap: wrap;
  }
 
- .contenedor-servico img {
+ .contenedor-servicio img {
 
     width: 30%;
  }
 
- .checklist-servicio {
+ .checklist-servicios {
     width: 45%;
  }
 
@@ -189,3 +189,24 @@ flex-wrap: wrap;
 .agregar-imagen{
     width: 60%;
 }
+
+.cont-expert{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+
+ .cont-expert img {
+
+    width: 30%;
+ }
+
+
+ .n-expert{
+
+    margin-bottom: 7px;
+    color:#9f8ad0;
+
+ }
