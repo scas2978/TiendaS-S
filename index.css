@@ -1,4 +1,22 @@
-
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body{font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+header {
+    height: 100vh;
+    background-image: background-image linear-gradient(to top, rgb(83, 26, 173) 0%, rgba(51, 8, 103, 0.51) 100%);
+
 }
