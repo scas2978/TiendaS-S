@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+:root{
+scroll-behavior:smooth ;
+}
 body{font-family: 'Open Sans', sans-serif;
 }
 
@@ -31,5 +33,20 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-direction: column;
+    color:#f0f8ff
+
+}
+
+.hamburguer{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: #f0f8ff;
+    width: 40px;
+    height: 4px;
+    cursor: pointer;
+    border-radius:10px;
+    box-shadow: 0 0 6px;
+
 }
