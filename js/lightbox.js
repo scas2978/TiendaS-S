@@ -1,16 +1,17 @@
-const imagenes =document.querySelectorall('.img-galeria')
+
+const imagenes =document.querySelectorAll('.img-galeria')
 const imageneslight=document.querySelector('.agregar-imagen')
 const contenedorlight=document.querySelector('.imagen-light')
-const hamburguer1 =document.querySelector('.hamburguer');
+const hamburguer1 =document.querySelector('.hamburguer')
 
 imagenes.forEach(imagen =>{
 
-    imagen.addEventlistener('click',()=>{
+    imagen.addEventListener('click',()=>{
         
-   
-    aparecerimagen(imagen.getAttribute('src'))
+        aparecerImagen(imagen.getAttribute('src'))
     })
 })
+
 
 contenedorlight.addEventListener('click',(e)=>{
 if(e.target !== imageneslight)
