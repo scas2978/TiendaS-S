@@ -17,6 +17,5 @@ body{font-family: 'Open Sans', sans-serif;
 
 header {
     height: 100vh;
-    background-image: background-image linear-gradient(to top, rgb(83, 26, 173) 0%, rgba(51, 8, 103, 0.51) 100%);
-
+    background-image: linear-gradient(to top, rgb(161, 140,209, 0.5) 0%, rgb(251, 194, 235, 0.5) 100%),url(../img/img1.svg);
 }
