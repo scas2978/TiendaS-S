@@ -198,7 +198,6 @@ transform: translate(0);
 
 .agregar-imagen{
     width: 60%;
-<<<<<<< HEAD
 }
 
 .cont-expert{
@@ -221,26 +220,3 @@ transform: translate(0);
     color:#9f8ad0;
 
  }
-=======
-    border-radius: 10px;
-    transform: scale(0);
-    transition: transform .3s .2s;
-}
-
-
-.showImage{
-transform: scale(1);
-
-}
-
-.close{
-
-    position: absolute;
-    top: 15px;
-
-    right: 15px; 
-    width: 40px;
-    cursor: pointer;
-
-}
->>>>>>> d2fa7a3dfc91b83bac3a8649fe5588574ad9d98e
