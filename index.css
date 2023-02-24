@@ -65,7 +65,23 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    transition: transform .3s ease-in-out;
+    /*transform: translate(110%);*/
+
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 }
 
-header:hover
+.spread{
+
+    transform: translate(0);
+}
+
+.menu-navegacion a{
+
+    color: #fff;
+    text-decoration:none ;
+}
+header:hover .menu-navegacion{
+    transform: translate(110%);
+}
+
