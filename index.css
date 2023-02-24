@@ -26,7 +26,7 @@ body{font-family: 'Open Sans', sans-serif;
 
 header {
     height: 100vh;
-    background-image: linear-gradient(to top, rgb(161, 140,209, 0.3) 0%, rgb(251, 194, 235, 0.3) 100%),url(../TiendaS-S/img4.jpg);
+   background-image: linear-gradient(to top, rgb(161, 140,209, 0.3) 0%, rgb(251, 194, 235, 0.3) 100%),url(../TiendaS-S/Computador.avif);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -261,6 +261,7 @@ footer {
 
     background:#9f8ad0;
     padding-bottom: 0.1px;
+    border: 1px solid #000;
 }
 
 
@@ -331,6 +332,8 @@ line-height: 60px;
 .line{
  width:90% ;
  max-width: 1200px;
- margin
-
+ margin:0 auto;
+height: 2px ;
+background: #fff;
+margin-bottom: 60px;
 }
