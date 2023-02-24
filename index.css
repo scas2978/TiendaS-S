@@ -108,3 +108,21 @@ header {
 
 }
 
+
+/*nuestro servicio*/
+ .subtitulo{
+    text-align: center;
+    font-weight:300 ;
+    color:#9f8ad0;
+    margin-bottom:40px;
+
+ }
+
+
+ .contenedor-servico{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+ }
