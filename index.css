@@ -19,4 +19,7 @@ header {
     height: 100vh;
     background-image: linear-gradient(to top, rgb(161, 140,209, 0.3) 0%, rgb(251, 194, 235, 0.3) 100%),url(../TiendaS-S/img4.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
