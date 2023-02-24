@@ -80,6 +80,23 @@ header {
 
     color: #fff;
     text-decoration:none ;
+
+
+}
+
+
+
+.titulo{
+    font-size:60px;
+    margin-bottom: 15px;
+
+}
+
+
+.copy{
+    font-weight: 300;
+    font-size: 25px;
+    
 }
 header:hover .menu-navegacion{
     transform: translate(110%);
