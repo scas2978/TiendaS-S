@@ -2,3 +2,13 @@
 
 body{font-family: 'Open Sans', sans-serif;
 }
+
+
+.menu-navegacion{
+    width:50px;
+    background-color: black;
+    height: auto;
+    font-family: sans-serif;
+    flex: auto;
+    flex-direction: column;
+}
