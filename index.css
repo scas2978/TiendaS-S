@@ -17,6 +17,13 @@ body{font-family: 'Open Sans', sans-serif;
     padding: 60px 0;
 }
 
+.img-galeria{
+    height: 200px;
+    width: auto;
+    align-items: center;
+    
+}
+
 header {
     height: 100vh;
     background-image: linear-gradient(to top, rgb(161, 140,209, 0.3) 0%, rgb(251, 194, 235, 0.3) 100%),url(../TiendaS-S/img4.jpg);
