@@ -126,3 +126,12 @@ header {
     align-items: center;
     flex-wrap: wrap;
  }
+
+ .contenedor-servico img {
+
+    width: 40%;
+ }
+
+ .checklist-servicio {
+    width: 45%;
+ }
